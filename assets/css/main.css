@@ -5144,7 +5144,7 @@ h6 {
     height: 50px;
     font-size: 16px;
     align-items: center;
-    background-color: var(--thm-primary);
+    background-color: var(--thm-base);
     color: #fff;
     justify-content: center;
     text-align: center;
