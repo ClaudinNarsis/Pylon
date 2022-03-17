@@ -4,11 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EDUCATIONAL LOANS Page || Pylon || Loan HTML Template</title>
+    <title>Contact Page || Pylon || Loan HTML Template</title>
     <!-- favicons Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/favicons/site.webmanifest">
     <meta name="description" content="Pylon Loan HTML Template">
 
     <!-- fonts -->
@@ -33,7 +34,6 @@
     <div class="preloader">
         <img class="preloader__image" src="assets/images/loader.png" height="150px" alt="">
     </div>
-    <!-- /.preloader -->
     <div class="page-wrapper">
         <header class="main-header">
             <div class="topbar">
@@ -82,7 +82,7 @@
                             </ul>
                         </li>
                         <li><a href="contact.html">Contact Us</a></li>
-                        <li style="padding-right: 25px;"><a href="contact.html">About Us</a></li>
+                        <li style="padding-right: 25px;"><a href="about.html">About Us</a></li>
 
                     </ul>
                     <!-- /.main-menu__list -->
@@ -111,6 +111,7 @@
             <!-- /.sticky-header__content -->
         </div>
         <!-- /.stricky-header -->
+
         <section class="page-header">
             <div class="page-header__bg" style="background-image: url(assets/images/backgrounds/page-header-bg-1-1.jpg);"></div>
             <!-- /.page-header__bg -->
@@ -118,272 +119,98 @@
                 <ul class="thm-breadcrumb list-unstyled">
                     <li><a href="index.html">Home</a></li>
                     <li>/</li>
-                    <li><span>EDUCATIONAL LOANS</span></li>
+                    <li><span>Contact Us</span></li>
                 </ul>
                 <!-- /.thm-breadcrumb list-unstyled -->
-                <h2>EDUCATIONAL LOANS</h2>
+                <h2>Contact Us</h2>
             </div>
             <!-- /.container -->
         </section>
         <!-- /.page-header -->
-
-        <section class="service-details">
+        <section class="contact-one">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4">
-                        <div class="service-sidebar">
-                            <div class="service-sidebar__category">
-                                <ul class="list-unstyled serivces-widget-list">
-                                    <li class="pyloan-service-list-arrow active">
-                                        <a href="#">Personal Loan<i class="fas fa-chevron-right"></i></a>
-                                    </li>
-
-                                    <li class="pyloan-service-list-arrow">
-                                        <a href="#">Home Loan<i class="fas fa-chevron-right"></i></a>
-                                    </li>
-
-                                    <li class="pyloan-service-list-arrow">
-                                        <a href="#">Business Loan<i class="fas fa-chevron-right"></i></a>
-                                    </li>
-
-                                    <li class="pyloan-service-list-arrow">
-                                        <a href="#">Educational Loan<i class="fas fa-chevron-right"></i></a>
-                                    </li>
-
-                                    <li class="pyloan-service-list-arrow">
-                                        <a href="#">Supply Chain Finance<i class="fas fa-chevron-right"></i></a>
-                                    </li>
-
-                                    <li class="pyloan-service-list-arrow">
-                                        <a href="#">Trade Finance<i class="fas fa-chevron-right"></i></a>
-                                    </li>
-                                </ul>
+                    <div class="col-lg-5">
+                        <div class="contact-one__content">
+                            <div class="block-title">
+                                <p class="small-title">Get in touch with us</p>
+                                <h2 class="title-block">Ask for your query</h2>
                             </div>
-                            <!-- /.service-sidebar__category -->
-
-
-                            <!-- /.document-widget-post -->
-
-                            <div class="service-sidebar__call">
-                                <div class="service-sidebar__call-bg" style="background-image: url(assets/images/services/service-sidebar-1-1.jpg);"></div>
-                                <!-- /.service-sidebar__call-bg -->
-                                <i class="pylon-icon-tech-support"></i>
-                                <h3><a href="tel:+918270586878">(+91) 82705 86878</a></h3>
-                                <div class="pylon-mail">
+                            <div class="contact-one__box">
+                                <i class="pylon-icon-telephone"></i>
+                                <div class="contact-one__box-content">
+                                    <h4>Call Anytime</h4>
+                                    <a href="tel:+918270586878">+918270586878</a>
+                                </div>
+                                <!-- /.contact-one__box-content -->
+                            </div>
+                            <!-- /.contact-one__box -->
+                            <div class="contact-one__box">
+                                <i class="pylon-icon-email1"></i>
+                                <div class="contact-one__box-content">
+                                    <h4>Write Email</h4>
                                     <a href="mailto:care@exponentfinserv.com">care@exponentfinserv.com</a>
                                 </div>
-                                <p>We are here to help our customer any time. You can call on 24/7 To Answer Your Question.</p>
+                                <!-- /.contact-one__box-content -->
                             </div>
-                            <!-- /.service-sidebar__call -->
-                        </div>
-                        <!-- /.service-sidebar -->
+                            <!-- /.contact-one__box -->
 
+                        </div>
+                        <!-- /.contact-one__content -->
                     </div>
-                    <!-- /.col-lg-4 -->
-                    <div class="col-lg-8">
-                        <div class="service-details__content">
-                            <div class="service-details__image">
-                                <img src="assets/images/services/education loan.png" class="img-fluid" alt="">
+                    <!-- /.col-lg-5 -->
+                    <div class="col-lg-7">
+                        <form action="contact.php" method="post" class="contact-one__form">
+                            <div class="row low-gutters">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" placeholder="Your Name" class="form-control contact-one__form-input" name="name" required>
+                                    </div>
+                                </div>
+                                <!-- /.col-md-6 -->
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="email" placeholder="Your Email" class="form-control contact-one__form-input" name="email" required>
+                                    </div>
+                                </div>
+                                <!-- /.col-md-6 -->
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" placeholder="Phone Number" class="form-control contact-one__form-input" name="phone">
+                                    </div>
+                                </div>
+                                <!-- /.col-md-6 -->
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" placeholder="Subject" class="form-control contact-one__form-input" name="subject">
+                                    </div>
+                                </div>
+                                <!-- /.col-md-6 -->
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <textarea name="message" placeholder="Write Message" class="contact-one__form-input"></textarea>
+                                    </div>
+                                    <button class="thm-btn" type="submit">Send A Message</button>
+                                </div>
+                                <!-- /.col-md-6 -->
                             </div>
-                            <!-- /.service-details__image -->
-                            <h3>Educational Loan</h3>
-                            <p>With the rapidly rising cost of higher education, a funding crisis should never be an obstacle between the student and the education. Education is common for students from all walks of life. Bearing this in mind, educational
-                                loans were introduced for the students to benefit, which allows them to focus on their academics. Leading public and private banks and non-banking financial sectors offer educational loans where the security is not required
-                                to a certain amount. With a low rate of interest and multiple repayment options makes it easier for the students to meet their educational expenses within India or to go abroad for higher studies. </p>
-                            <p> Educational loan types vary according to the need of the students. There are different types of loans such as Domestic education loans, Higher education loans, Study abroad education loans, Undergraduate loans, Secured Loans
-                                and unsecured loans. When applying for the loan, the students are expected to plan priorly well in advance before the beginning of the academic year. The loan applicant must pass the eligibility criteria with a proven record
-                                of successful academic history. This increases the chances of approval of the required loan. Exponent fulfils every student’s dream to pursue their desired course in Indian educational institutions or abroad universities.
-                                We help you understand the guidelines and ascertain your eligibility meets the loan requirements. Our work is not done with submitting the application, but we are available to guide you throughout the loan process. The
-                                terms and tenure may vary amongst the financial institution from time to time, but they maintain a standard criteria for the student to fill in:</p>
-
-
-
-
-                        </div>
-                        <!-- /.service-details__content -->
-                        <div class="container">
-                            <form action="apply-now.php" method="post" class="contact-one__form">
-
-
-
-                                <div class="contact-one__form-box">
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <div class="block-title">
-                                                <p class="small-title">Basic Details</p>
-                                                <h2 class="title-block">Personal Details</h2>
-                                            </div>
-                                            <!-- /.block-title-->
-                                        </div>
-                                        <!-- /.col-md-12-->
-                                    </div>
-                                    <!-- /.row-->
-
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <label>Title </label>
-                                                <select type="text" name="title" class="contact-one__form-input custom-select" placeholder="Full Name" required>
-                                                    <option value="-Select-">-Select-</option>
-                                                    <option value="Dr.">Dr.</option>
-                                                    <option value="Mr.">Mr.</option>
-                                                    <option value="Ms.">Ms.</option>
-                                                    <option value="Mrs.">Mrs.</option>
-                                                    <option value="Miss.">Miss.</option>
-                                                </select>
-                                            </div>
-                                            <!-- /.form-group-->
-                                        </div>
-                                        <!-- /.col-md-6-->
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <label>Full Name </label>
-                                                <input type="text" name="yourname" class="form-control contact-one__form-input" placeholder="Full Name" required>
-                                            </div>
-                                            <!-- /.form-group-->
-                                        </div>
-                                        <!-- /.col-md-6-->
-                                    </div>
-                                    <!-- /.row-->
-
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <label>Mobile Number*</label>
-                                                <input type="number" name="phonenumber" class="form-control contact-one__form-input" placeholder="Mobile Number" required>
-                                            </div>
-                                            <!-- /.form-group-->
-                                        </div>
-                                        <!-- /.col-md-6-->
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <label>Email*</label>
-                                                <input type="email" name="your-email" class="form-control contact-one__form-input" placeholder="Your Email" required>
-                                            </div>
-                                            <!-- /.form-group-->
-                                        </div>
-                                        <!-- /.col-md-6-->
-
-                                        <!-- /.col-md-6-->
-                                    </div>
-                                    <!-- /.row-->
-
-
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <label>Admission Status*</label>
-                                                <select type="text" name="admission status" class="contact-one__form-input custom-select" placeholder="Full Name" required>
-                                                    <option value="Not Applied">Not Applied</option>
-                                                    <option value="Applied">Applied</option>
-                                                    <option value="Confirmed">Confirmed</option>
-                                                    >
-                                                </select>
-                                            </div>
-                                            <!-- /.form-group-->
-                                        </div>
-                                        <!-- /.col-md-6-->
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <label>Country*</label>
-                                                <input type="text" name="country" class="form-control contact-one__form-input" placeholder="India" value="India" required>
-                                            </div>
-                                            <!-- /.form-group-->
-                                        </div>
-                                        <!-- /.col-md-6-->
-
-                                        <!-- /.col-md-6-->
-                                    </div>
-                                    <!-- /.row-->
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <label>City *</label>
-                                                <select name="city" class="contact-one__form-input custom-select" required>
-                                                    <option value="Select">Select</option>
-									<option value="Delhi &amp; NCR">Delhi &amp; NCR</option>
-									<option value="Jaipur">Jaipur</option>
-									<option value="Chandigarh">Chandigarh</option>
-									<option value="Ludhiana">Ludhiana</option>
-									<option value="Kolkata">Kolkata</option>
-									<option value="Bhubneshwar">Bhubneshwar</option>
-									<option value="Bangalore">Bangalore</option>
-									<option value="Chennai">Chennai</option>
-									<option value="Coimbatore">Coimbatore</option>
-									<option value="Hyderabad">Hyderabad</option>
-									<option value="Vijaywada">Vijaywada</option>
-									<option value="Vizag">Vizag</option>
-									<option value="Ahemadabad">Ahemadabad</option>
-									<option value="Baroda">Baroda</option>
-									<option value="Surat">Surat</option>
-									<option value="Mumbai, Thane, Navi Mumbai">Mumbai, Thane, Navi Mumbai</option>
-									<option value="Pune">Pune</option>
-									<option value="Indore">Indore</option>
-									<option value="Others">Others</option>
-                                                </select>
-                                            </div>
-                                            <!-- /.form-group-->
-                                        </div>
-                                        <!-- /.col-md-6-->
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <label>Required Loan Amount(Rs.) </label>
-                                                <select name="Required loan amount" class="contact-one__form-input custom-select" required>
-                                                    <option value="Select">Select</option>
-                                                    <option value="1 to 5Lacs">1 to 5Lacs</option>
-                                                    <option value="5 to 10Lacs">5 to 10Lacs</option>
-                                                    <option value="10 to 20Lacs">10 to 20Lacs</option>
-                                                    <option value="20 to 30Lacs">20 to 30Lacs</option>
-                                                    <option value="30 to 40Lacs">30 to 40Lacs</option>
-                                                    <option value="40 to 50Lacs">40 to 50Lacs</option>
-                                                    <option value="50Lacs and above">50Lacs and above</option>
-                                                </select>
-                                            </div>
-                                            <!-- /.form-group-->
-                                        </div>
-                                        <!-- /.col-md-6-->
-
-                                        <!-- /.col-md-6-->
-                                    </div>
-                                    <!-- /.row-->
-                                    <div class="row">
-
-
-                                        <label>By submiting the form, I authorize Exponent to connect with me over call and whatsapp overriding my registration with NDNC</label>
-                                        </span>
-                                    </div>
-
-                                </div>
-                                <!-- /.contact-one__form-box-->
-
-
-
-                                <div class="contact-one__form-submit">
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <input type="submit" value="Submit" class="thm-btn">
-                                        </div>
-                                        <!--/.col-md-12-->
-                                    </div>
-                                    <!--/.row-->
-                                </div>
-                                <!--/.contact-one__form-submit-->
-
-                            </form>
-                            <!-- /.contact-one__form-->
-                        </div>
-                        <!-- /.container-->
+                            <!-- /.row -->
+                        </form>
+                        <!-- /.contact-one__from -->
                     </div>
-                    <!-- /.col-lg-8 -->
-
+                    <!-- /.col-lg-7 -->
                 </div>
                 <!-- /.row -->
             </div>
             <!-- /.container -->
         </section>
-        <!-- /.service-details -->
+        <!-- /.contact-one -->
+        <div class="google-map__home-two">
 
-
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.1095337602615!2d80.18480251527961!3d13.028696217146928!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52619677f36953%3A0x6a2a9bca594f464!2sExponent%20Finserv%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1647498465134!5m2!1sen!2sin"
+                class="map__home-two" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <!-- /.google-map -->
         <footer class="site-footer">
             <div class="container">
                 <div class="row justify-content-between">

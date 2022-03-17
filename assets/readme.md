@@ -1,6 +1,7 @@
 Self Notes:
 1. fix all links
 2. fix foorter for all pages
+2. change header logo size in all pages
 
 Resume from:
 1. Continue from fixing form for business loan page
