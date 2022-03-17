@@ -5,12 +5,12 @@ Self Notes:
 4. change meta and head tags for all pages
 
 Resume from:
-1. 
+1. fix all footer
 
 Pending works:
-1. change content footer.
-2. WhatsApp api integration.
-3. Put links in the social media icon.
-4. Place three logos at the footer
-5. form submition
+
+1. WhatsApp api integration.
+2. Put links in the social media icon.
+3. Place three logos at the footer
+4. form submition
 

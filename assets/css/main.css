@@ -3508,6 +3508,11 @@ h6 {
     transition: all 500ms ease;
 }
 
+.bottom-footer__social img {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 .bottom-footer__social a:hover {
     background-color: var(--thm-base);
     color: #fff;
