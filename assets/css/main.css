@@ -2709,7 +2709,7 @@ h6 {
 
 .client-carousel img {
     transition: 500ms;
-    opacity: 0.8;
+    opacity: 1;
     max-width: 100%;
 }
 
