@@ -394,8 +394,14 @@
             var stricky = $(".stricked-menu");
             if ($(window).scrollTop() > headerScrollPos) {
                 stricky.addClass("stricky-fixed");
+                $(".StickyImage").removeClass("display-none");
+                $(".StickyImage").addClass("display-block");
             } else if ($(this).scrollTop() <= headerScrollPos) {
                 stricky.removeClass("stricky-fixed");
+                $(".StickyImage").removeClass("display-block");
+                $(".StickyImage").addClass("display-none");
+
+
             }
         }
         if ($(".scroll-to-top").length) {
