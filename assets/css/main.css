@@ -2624,7 +2624,7 @@ h6 {
 
 @media (max-width: 480px) {
     .page-header .container {
-        padding-top: 80px;
+        padding-top: 120px;
         padding-bottom: 80px;
     }
 }
@@ -8021,9 +8021,16 @@ h6 {
 # HideVideo
 --------------------------------------------------------------*/
 
+.imgforvideo {
+    display: none;
+}
+
 @media (max-width: 525px) {
     .hero-bg-video {
         display: none;
+    }
+    .imgforvideo {
+        display: block;
     }
     .main-menu {
         backdrop-filter: blur(0px);
