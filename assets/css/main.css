@@ -8021,7 +8021,7 @@ h6 {
 # HideVideo
 --------------------------------------------------------------*/
 
-@media (max-width: 425px) {
+@media (max-width: 525px) {
     .hero-bg-video {
         display: none;
     }
