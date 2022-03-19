@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="assets/css/nouislider.min.css">
     <link rel="stylesheet" href="assets/css/nouislider.pips.css">
     <link rel="stylesheet" type="text/css" href="assets/css/flaticon.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/jquery-ui.css">
 
     <!-- template styles -->
     <link rel="stylesheet" href="assets/css/main.css">
@@ -478,7 +479,98 @@
         </section>
         <!-- /.service-one -->
 
+        <section class="contact-two">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class="loan-slider-box">
+                            <div class="loan-main-heading block-title text-left">
+                                <p class="small-title mb-0">Monthly EMI</p>
+                                <h3 class="title-block w-500">Loan Interest Calculator</h3>
 
+                                <div class="loan-yearly-changer">
+                                    <input type="checkbox" id="year-change">
+                                    <label for="year-change">Calculate loan in year</label>
+                                </div>
+                            </div>
+
+                            <div class="single-loan-slider">
+                                <h4>Loan Amount</h4>
+                                <div id="pricipal-slide" class="ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content">
+                                    <div class="ui-slider-range ui-corner-all ui-widget-header ui-slider-range-min"></div>
+                                    <span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default" style="left: 1.80361%;"></span>
+                                </div>
+                                <div class="single-loan-counter">
+                                    <span>₹</span>
+                                    <h6 id="pricipal">100000</h6>
+                                </div>
+                            </div>
+
+                            <div class="single-loan-slider yearly">
+                                <h4>Loan Year</h4>
+                                <div id="total-year-slide" class="ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content">
+                                    <div class="ui-slider-range ui-corner-all ui-widget-header ui-slider-range-min"></div>
+                                    <span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default" style="left: 3.44828%;"></span>
+                                </div>
+                                <div class="single-loan-counter">
+                                    <h6 id="totalyear">5</h6>
+                                    <span>Years</span>
+                                </div>
+                            </div>
+
+                            <div class="single-loan-slider monthly active">
+                                <h4>Loan Months</h4>
+                                <div id="total-month-slide" class="ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content">
+                                    <div class="ui-slider-range ui-corner-all ui-widget-header ui-slider-range-min"></div>
+                                    <span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default" style="left: 1.0345%;"></span>
+                                </div>
+                                <div class="single-loan-counter">
+                                    <h6 id="totalmonth">120</h6>
+                                    <span>Months</span>
+                                </div>
+                            </div>
+                            <div class="single-loan-slider">
+                                <h4>Interest Rate</h4>
+                                <div id="intrest-slide" class="ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content">
+                                    <div class="ui-slider-range ui-corner-all ui-widget-header ui-slider-range-min"></div>
+                                    <span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default" style="left: 48.7603%;"></span>
+                                </div>
+                                <div class="single-loan-counter">
+                                    <h6 id="intrest">10</h6>
+                                    <span>%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div id="loan-calculator-1" data-interest-rate="15" class="about-one__form">
+                            <h3>How Much You Need</h3>
+                            <div class="about-one__form-content about-total-loan-form">
+                                <div class="about-total-loan-form-calculation">
+                                    <p>
+                                        <span>Monthly EMI</span>
+                                        <b>₹<i id="emi">1,309.91</i></b>
+                                    </p>
+                                    <p>
+                                        <span>Total Interest</span>
+                                        <b>₹<i id="tbl_emi">57,188.72</i></b>
+                                    </p>
+                                    <p>
+                                        <span>Total Amount Payable</span>
+                                        <b>₹<i id="tbl_la">157,188.72</i></b>
+                                    </p>
+                                </div>
+                                <a href="apply-now.html" class="thm-btn" target="_blank" rel="nofollow">Apply For Loan</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.col-lg-5 -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+        </section>
+        <!-- /.contact-two -->
 
         <section class="trusted-company">
             <div class="trusted-company__bg" style="background-image: url(assets/images/shapes/trust-bg-1-1.png);"></div>
@@ -1285,6 +1377,9 @@
     <script src="assets/js/jquery.appear.min.js"></script>
     <script src="assets/js/wNumb.min.js"></script>
     <script src="assets/js/nouislider.min.js"></script>
+    <!-- <script type="text/javascript" src="assets/js/jquery-1.12.4.js"></script> -->
+    <script type="text/javascript" src="assets/js/jquery-ui.js"></script>
+    <script type="text/javascript" src="assets/js/loan-calculator.js"></script>
 
     <!-- template js -->
     <script src="assets/js/theme.js"></script>
