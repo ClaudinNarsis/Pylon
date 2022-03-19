@@ -257,6 +257,17 @@
 # Cards
 --------------------------------------------------------------*/
 
+.hero-bg-video {
+    width: 100%;
+}
+
+@media (max-width: 1199px) {
+    .hero-bg-video {
+        width: 1400px;
+        height: max-content;
+    }
+}
+
 .video-card {
     background-color: var(--thm-black);
     position: relative;
@@ -7978,8 +7989,8 @@ h6 {
     position: fixed;
     width: 60px;
     height: 60px;
-    bottom: 40px;
-    left: 60px;
+    bottom: 20px;
+    left: 20px;
     background-color: rgb(0, 204, 95);
     color: #FFF;
     border-radius: 50px;
