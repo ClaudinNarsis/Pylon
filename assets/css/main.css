@@ -8015,3 +8015,17 @@ h6 {
         display: none;
     }
 }
+
+
+/*--------------------------------------------------------------
+# HideVideo
+--------------------------------------------------------------*/
+
+@media (max-width: 425px) {
+    .hero-bg-video {
+        display: none;
+    }
+    .main-menu {
+        backdrop-filter: blur(0px);
+    }
+}

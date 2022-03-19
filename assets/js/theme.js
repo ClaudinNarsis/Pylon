@@ -414,12 +414,26 @@
         }
     });
 
-    if (screen.width < 428) {
-        var video1 = $("#hero-bg-video-1");
-        video1.src = "";
-        var video2 = $("#hero-bg-video-2");
-        video2.src = "";
-        var video3 = $("#hero-bg-video-3");
-        video3.src = "";
-    }
+    // if (screen.width < 500) {
+    //     setTimeout(function() {
+
+    //         var video1 = $(".hero-bg-video-1");
+    //         video1.pause();
+    //         console.log(video1.src);
+    //         video1.src = "assets/videos/slider-video-mobile-1.mp4";
+    //         video1.load();
+    //         video1.play();
+    //         console.log(video1.src);
+    //         // var video2 = $(".hero-bg-video-2");
+    //         // console.log(video2.src);
+    //         // video2.src = "assets/videos/slider-video-mobile-2.mp4";
+    //         // console.log(video2.src);
+    //         // var video3 = $(".hero-bg-video-3");
+    //         // console.log(video3.src);
+    //         // video3.src = "assets/videos/slider-video-mobile-3.mp4";
+    //         // console.log(video3.src);
+    //     }, 1000);
+
+
+    // }
 })(jQuery);
