@@ -413,4 +413,13 @@
             }
         }
     });
+
+    if (screen.width < 428) {
+        var video1 = $("#hero-bg-video-1");
+        video1.src = "";
+        var video2 = $("#hero-bg-video-2");
+        video2.src = "";
+        var video3 = $("#hero-bg-video-3");
+        video3.src = "";
+    }
 })(jQuery);
