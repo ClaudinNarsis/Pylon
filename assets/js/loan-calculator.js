@@ -15,7 +15,7 @@ if ($("#loan-calculator-1").length) {
                     $("#total-year-slide").slider({
                         range: "min",
                         min: 0.25,
-                        max: 6,
+                        max: 20,
                         step: 0.25,
                         value: monthtoyear,
                         slide: function(event, ui) {
@@ -32,7 +32,7 @@ if ($("#loan-calculator-1").length) {
                     $("#total-month-slide").slider({
                         range: "min",
                         min: 3,
-                        max: 72,
+                        max: 240,
                         step: 3,
                         value: yeartomonth,
                         slide: function(event, ui) {
@@ -54,7 +54,7 @@ if ($("#loan-calculator-1").length) {
         $("#pricipal-slide").slider({
             range: "min",
             min: 10000,
-            max: 50000000,
+            max: 100000000,
             value: 100000,
             step: 10000,
             slide: function(event, ui) {
@@ -67,7 +67,7 @@ if ($("#loan-calculator-1").length) {
         $("#total-year-slide").slider({
             range: "min",
             min: 0.25,
-            max: 6,
+            max: 20,
             step: 0.25,
             value: monthtoyear,
             slide: function(event, ui) {
@@ -81,7 +81,7 @@ if ($("#loan-calculator-1").length) {
         $("#total-month-slide").slider({
             range: "min",
             min: 3,
-            max: 72,
+            max: 240,
             step: 3,
             value: yeartomonth,
             slide: function(event, ui) {
@@ -94,8 +94,8 @@ if ($("#loan-calculator-1").length) {
 
         $("#intrest-slide").slider({
             range: "min",
-            min: 4.10,
-            max: 16.20,
+            min: 5,
+            max: 30,
             step: 0.01,
             value: 10,
             slide: function(event, ui) {
